@@ -1,0 +1,12 @@
+<!doctype html>
+<html>
+<head>
+</head>
+<body>
+<script src="../../data/build.js"></script>
+<script>
+    var searchUrl = 'http://tv.kt.com/tv/vod/pVodSearch.asp?ie=cp949&search_word1=';
+    window.location.href = searchUrl + encodeCP949(getQueryString('q'));
+</script>
+</body>
+</html>
